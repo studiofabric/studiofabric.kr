@@ -1,0 +1,46 @@
+html {
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    color: #000000;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding:40px;
+   
+}
+
+p{
+    color: #222;
+    margin-top: 0;
+}
+
+a {
+    color: #000000;
+}
+
+.info :hover {
+    color:greenyellow;
+}
+
+
+.main{
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 26px;
+}
+
+.info{
+    font: Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+    position: fixed;
+    
+   
+}
