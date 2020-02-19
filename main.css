@@ -1,5 +1,7 @@
-html {
-    -webkit-font-smoothing: antialiased;
+
+@font-face {
+    font-family: 'Neuzeit';
+    src: url('../font/3AD4B9_0_0.woff') format('woff');
 }
 
 body {
@@ -10,6 +12,7 @@ body {
 }
 
 p{
+    font-family: 'Neuzeit';
     color: #222;
     margin-top: 0;
 }
@@ -25,26 +28,19 @@ a {
 
 
 .main{
-    font-family: 'Noto Serif KR', serif;
-    font-style: normal;
+    font-family: 'Neuzeit';
     color: #000000;
     line-height: 1.5;
     font-weight: 200;
-    font-size: 26px;
+    font-size: 24px;
 
 }
 
 .info{
-    font-family: "Helvertica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-family: 'Neuzeit';
     font-size: 18px;
     line-height: 1.3;
     position: absolute;
     top: 48%;
     z-index: 9999;
-}
-
-.highlight {
-    font-family: "Helvertica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
 }
